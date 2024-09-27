@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Resume Portfolio</title>
+    <style>
+   
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+      
+        header {
+            display: flex;
+            align-items: center;
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+        }
+
+     
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+            border: 5px solid white;
+        }
+
+     
+        .header-text h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        .header-text p {
+            margin: 5px 0 0;
+            font-size: 18px;
+        }
+
+        
+        .resume-section {
+            padding: 20px;
+        }
+
+        .section-title {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 24px;
+            border-bottom: 2px solid #4CAF50;
+            margin-bottom: 10px;
+        }
+
+      
+        .section-content {
+            margin-bottom: 20px;
+        }
+
+       
+        button.toggle-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+       
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+   
+    <header>
+        <img src="C:\Users\Administrator\Pictures\Screenshots\ahmed-photo.png" alt="Profile Picture" class="profile-picture">
+        <div class="header-text">
+            <h1>Ahmed Abdullah</h1>
+            <p>Email: hasanahmed@gmail.com</p>
+        </div>
+    </header>
+
+
+    <div class="resume-section">
+        
+        <div class="section">
+            <div class="section-title">Education</div>
+            <div class="section-content">
+                <p>O-levels in Coputer Science| A-levels in progress | Specialization in Islamic Jurispudence in progress</p>
+            </div>
+        </div>
+
+       
+        <div class="section">
+            <div class="section-title">Experience</div>
+            <div class="section-content">
+                <p>Past Digital Marketing Intern - Ozbix Software House</p>
+            </div>
+        </div>
+
+      
+        <div class="section">
+            <div class="section-title">Skills</div>
+            <button class="toggle-button" onclick="toggleSkills()">More</button>
+            <div id="skills-content" class="section-content">
+                <p>JavaScript, TypeScript, HTML, CSS, Python,Digital Marketing</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="typescript.js">
+      
+        
+    </script>
+    
+</body>
+</html>
